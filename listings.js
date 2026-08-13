@@ -1,16 +1,3 @@
-/*
-  ====================================================================
-  EDIT THIS FILE ONLY. You never need to touch index.html/style.css/script.js.
-
-  1) Drop your screenshot PNGs into the /images folder.
-  2) Copy one block below per character, fill in the details,
-     and point "image" at your PNG's filename.
-  3) classKey must be exactly one of: warrior, ninja, sura, shaman, lycan
-  4) For full accounts (multiple characters bundled together), use the
-     separate ACCOUNTS array further down this file instead.
-  ====================================================================
-*/
-
 const LISTINGS = [
   {
     name: "Armadura de Aco Preto +9",
@@ -233,17 +220,17 @@ const LISTINGS = [
   {
     name: "Ninja",
     classKey: "ninja",
-    image: "images/example.png"
+    image: "images/characters/n.png"
   },
   {
-    name: "Sura",
-    classKey: "Sura",
-    image: "images/example.png"
+    name: "Shaman",
+    classKey: "Shaman",
+    image: "images/characters/x.png"
   },
   {
     name: "Lycan",
     classKey: "lycan",
-    image: "images/example.png"
+    image: "images/characters/l.png"
   },
 ];
 
@@ -267,7 +254,7 @@ const ACCOUNTS = [
   },
 
   {
-    title: "Email Warrior lvl 101,",
+    title: "Warrior lvl 101 email,",
     price: "Ask for price",
     notes: "Alquimia Mitica, Biologo Tiugy, Chare de lascas lvl 61 com luvas do ladrao 7 dias e 2h. aneis de teletransporte e .",
     image: "images/characters/w.png",

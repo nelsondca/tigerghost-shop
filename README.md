@@ -1,4 +1,4 @@
-# TigerGhost Bounty Board
+# TigerGhost Items Sell
 
 A simple static site to showcase game characters for sale, filterable by class.
 
