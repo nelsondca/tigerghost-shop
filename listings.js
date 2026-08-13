@@ -14,11 +14,116 @@
 const LISTINGS = [
   {
     name: "Armadura de Aco Preto +9",
-    classKey: "Warrior",
+    classKey: "warrior",
     level: 70,
-    price: "7 Wons",
+    price: "7 Wons or ask for price",
     image: "images/warrioritens/aco.png"
   },
+  {
+    name: "Colar de Cobre +9",
+    classKey: "warrior",
+    level: 8,
+    price: "Ask for price",
+    image: "images/warrioritens/colarcobre+9.png"
+  },
+  {
+    name: "Elmo Aco de Dragao +7",
+    classKey: "warrior",
+    level: 100,
+    price: "Ask for price",
+    image: "images/warrioritens/elmo.png"
+  },
+  {
+    name: "Elmo de Ferro +9",
+    classKey: "warrior",
+    level: 21,
+    price: "Ask for price",
+    image: "images/warrioritens/elmoferro+910dem15rel.png"
+  },
+  {
+    name: "Mascara de Gladiador +6",
+    classKey: "warrior",
+    level: 60,
+    price: "Ask for price",
+    image: "images/warrioritens/gladiador+615vento.png"
+  },
+  {
+    name: "Sapatos em Madeira +9",
+    classKey: "warrior",
+    level: 17,
+    price: "Ask for price",
+    image: "images/warrioritens/madeira+9.png"
+  },
+  {
+    name: "Armadura Mortal +9",
+    classKey: "warrior",
+    level: 34,
+    price: "Ask for price",
+    image: "images/warrioritens/mortal+915ven10abs10fg15vd.png"
+  },
+  {
+    name: "Pulseira de Safira +8",
+    classKey: "warrior",
+    level: 54,
+    price: "Ask for price",
+    image: "images/warrioritens/pulsafira+8.png"
+  },
+  {
+    name: "Roupa da Aura Normal",
+    classKey: "warrior",
+    price: "Ask for price",
+    image: "images/warrioritens/roupadaura.png"
+  },
+  {
+    name: "Colar de Safira +9",
+    classKey: "warrior",
+    level: 54,
+    price: "Ask for price",
+    image: "images/warrioritens/safira+9.png"
+  },
+  {
+    name: "Talisma da Terra +0 (Deserto)",
+    classKey: "warrior",
+    level: 20,
+    price: "Ask for price",
+    image: "images/warrioritens/talisma.png"
+  },
+  {
+    name: "Talisma da Terra +0 (Gelo)",
+    classKey: "warrior",
+    level: 20,
+    price: "Ask for price",
+    image: "images/warrioritens/talisma2.png"
+  },
+  {
+    name: "Armadura Tigre +9 (Max VD)",
+    classKey: "warrior",
+    level: 18,
+    price: "Ask for price",
+    image: "images/warrioritens/tigre+915rel1kvd.png"
+  },
+  {
+    name: "Armadura Tigre +9 (Reflete Ataques)",
+    classKey: "warrior",
+    level: 18,
+    price: "Ask for price",
+    image: "images/warrioritens/tigre+915relampagos.png"
+  },
+  {
+    name: "Escudo Tita +9",
+    classKey: "warrior",
+    level: 81,
+    price: "Ask for price",
+    image: "images/warrioritens/tita.png"
+  },
+  {
+    name: "Espada Venenosa +9",
+    classKey: "warrior",
+    level: 75,
+    price: "Ask for price",
+    image: "images/warrioritens/venas.png"
+  },
+
   {
     name: "Ninja",
     classKey: "ninja",
@@ -34,10 +139,6 @@ const LISTINGS = [
     classKey: "lycan",
     image: "images/example.png"
   },
-  
-
-
-
 ];
 
 /*
