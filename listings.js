@@ -16,7 +16,7 @@ const LISTINGS = [
     name: "Armadura de Aco Preto +9",
     classKey: "warrior",
     level: 70,
-    price: "7 Wons or ask for price",
+    price: "Ask for price",
     image: "images/warrioritens/aco.png"
   },
   {
@@ -254,7 +254,7 @@ const LISTINGS = [
 const ACCOUNTS = [
   {
     title: "Email Sura lvl 1 Campeao,",
-    price: "€350 limpo",
+    price: "Ask for price",
     notes: "Talisma do gelo nao negociavel a +10, nazares e item shop alquimia mitica e uma brilhante de granada. V2 char com Alquimia Lendaria, 2 contas com 4 chares de lascas lvl 61",
     image: "images/characters/s.png",
     characters: [
@@ -268,7 +268,7 @@ const ACCOUNTS = [
 
   {
     title: "Email Warrior lvl 101,",
-    price: "€70 limpo",
+    price: "Ask for price",
     notes: "Alquimia Mitica, Biologo Tiugy, Chare de lascas lvl 61 com luvas do ladrao 7 dias e 2h. aneis de teletransporte e .",
     image: "images/characters/w.png",
     characters: [
