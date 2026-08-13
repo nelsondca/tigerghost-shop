@@ -217,21 +217,6 @@ const LISTINGS = [
     image: "images/suraitens/zodiaco.png"
   },
 
-  {
-    name: "Ninja",
-    classKey: "ninja",
-    image: "images/characters/n.png"
-  },
-  {
-    name: "Shaman",
-    classKey: "Shaman",
-    image: "images/characters/x.png"
-  },
-  {
-    name: "Lycan",
-    classKey: "lycan",
-    image: "images/characters/l.png"
-  },
 ];
 
 /*
@@ -242,7 +227,7 @@ const ACCOUNTS = [
   {
     title: "Email Sura lvl 1 Campeao,",
     price: "Ask for price",
-    notes: "Talisma do gelo nao negociavel a +10, nazares e item shop alquimia mitica e uma brilhante de granada. V2 char com Alquimia Lendaria, 2 contas com 4 chares de lascas lvl 61",
+    notes: "Talisma do gelo nao negociavel a +10, <p>nazares e item shop alquimia mitica e uma brilhante de granada. V2 char com Alquimia Lendaria, 2 contas com 4 chares de lascas lvl 61",
     image: "images/characters/s.png",
     characters: [
       { name: "Shaman", classKey: "Dragao", level: 106 },
@@ -260,7 +245,7 @@ const ACCOUNTS = [
     image: "images/characters/w.png",
     characters: [
       { name: "Warrior Corpo", classKey: "Warrior", level: 101 },
-      { name: "4 lascas", classKey: "Warrior", level: 61 },
+      { name: "4 Chares de lascas", classKey: "Warrior", level: 61 },
     ]
   },
 
@@ -268,7 +253,7 @@ const ACCOUNTS = [
   
 ];
 
-// Edit these to your real contact details — add or remove lines as needed.
+
 const CONTACT = [
   { label: "Discord", href: "https://discord.com/users/your-id-here" },
   { label: "Email", href: "mailto:you@example.com" },
