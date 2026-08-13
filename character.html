@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Character Details — TigerGhost Bounty Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-head">
+  <div class="seal">
+    <svg viewBox="0 0 120 120" width="72" height="72" aria-hidden="true">
+      <circle cx="60" cy="60" r="56" fill="none" stroke="var(--gold)" stroke-width="2"/>
+      <circle cx="60" cy="60" r="48" fill="none" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+      <path d="M35 70 Q45 30 60 30 Q75 30 85 70" fill="none" stroke="var(--gold)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M40 75 L48 55 M52 78 L58 52 M68 52 L74 78 M80 55 L88 75" stroke="var(--ghost)" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    </svg>
+  </div>
+  <h1>TigerGhost <span>Bounty&nbsp;Board</span></h1>
+  <a class="contact-pill" href="index.html#characters">← Back to all characters</a>
+</header>
+
+<section id="detail">
+  <main class="detail-wrap" id="detailWrap">
+    <!-- filled by character.js -->
+  </main>
+</section>
+
+<footer id="contact" class="contact">
+  <h2>Interested in this character?</h2>
+  <p>Message the seller with the character name and you'll get pricing, stats and trade details.</p>
+  <div class="contact-methods" id="contactMethods">
+    <!-- filled from listings.js CONTACT object -->
+  </div>
+</footer>
+
+<script src="listings.js"></script>
+<script src="character.js"></script>
+</body>
+</html>

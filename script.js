@@ -16,7 +16,7 @@ const CLASS_LABELS = {
 
 const board = document.getElementById("board");
 const emptyState = document.getElementById("emptyState");
-const filterButtons = document.querySelectorAll(".filter-btn");
+const filterButtons = document.querySelectorAll("#filters .filter-btn");
 const contactWrap = document.getElementById("contactMethods");
 
 // Deterministic slight tilt per card, so it doesn't reshuffle on re-render.
@@ -35,6 +35,10 @@ function renderCards(classFilter) {
     const card = document.createElement("article");
     card.className = "card";
     card.style.setProperty("--tilt", `${tiltFor(i)}deg`);
+    card.style.cursor = "pointer";
+    card.setAttribute("role", "link");
+    card.tabIndex = 0;
+    card.setAttribute("aria-label", `View details for ${item.name}`);
 
     card.innerHTML = `
       <div class="card-img-wrap">
@@ -51,18 +55,39 @@ function renderCards(classFilter) {
         <p class="char-price">${item.price || "Ask for price"}</p>
       </div>
     `;
+
+    const goToDetail = () => {
+      window.location.href = `character.html?i=${LISTINGS.indexOf(item)}`;
+    };
+    card.addEventListener("click", goToDetail);
+    card.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        goToDetail();
+      }
+    });
+
     board.appendChild(card);
   });
 }
 
 const accBoard = document.getElementById("accBoard");
 const accEmptyState = document.getElementById("accEmptyState");
+const accFilterButtons = document.querySelectorAll("#accFilters .filter-btn");
 
-function renderAccounts() {
+function renderAccounts(classFilter) {
   accBoard.innerHTML = "";
-  accEmptyState.hidden = ACCOUNTS.length !== 0;
 
-  ACCOUNTS.forEach((acc, i) => {
+  const items = ACCOUNTS.filter(acc => {
+    if (classFilter === "all" || !classFilter) return true;
+    return (acc.characters || []).some(
+      c => (c.classKey || "").toLowerCase() === classFilter
+    );
+  });
+
+  accEmptyState.hidden = items.length !== 0;
+
+  items.forEach((acc, i) => {
     const card = document.createElement("article");
     card.className = "card acc-card";
     card.style.setProperty("--tilt", `${tiltFor(i + 3)}deg`);
@@ -107,6 +132,14 @@ filterButtons.forEach(btn => {
   });
 });
 
+accFilterButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    accFilterButtons.forEach(b => b.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    renderAccounts(btn.dataset.class);
+  });
+});
+
 renderCards("all");
-renderAccounts();
+renderAccounts("all");
 renderContact();

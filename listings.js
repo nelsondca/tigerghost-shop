@@ -13,23 +13,31 @@
 
 const LISTINGS = [
   {
-    name: "Example Character",
-    classKey: "warrior",
-    level: 105,
-    price: "€50",
-    notes: "Full epic set, +9 weapon, replace this example.",
+    name: "Armadura de Aco Preto +9",
+    classKey: "Warrior",
+    level: 70,
+    price: "7 Wons",
+    image: "images/warrioritens/aco.png"
+  },
+  {
+    name: "Ninja",
+    classKey: "ninja",
     image: "images/example.png"
   },
+  {
+    name: "Sura",
+    classKey: "Sura",
+    image: "images/example.png"
+  },
+  {
+    name: "Lycan",
+    classKey: "lycan",
+    image: "images/example.png"
+  },
+  
 
-  // Copy the block above (including the comma before it) to add more, e.g.:
-  // {
-  //   name: "ShadowFang",
-  //   classKey: "ninja",
-  //   level: 98,
-  //   price: "€35",
-  //   notes: "Rare costume, maxed dagger mastery.",
-  //   image: "images/shadowfang.png"
-  // },
+
+
 ];
 
 /*
@@ -43,21 +51,20 @@ const ACCOUNTS = [
     notes: "Talisma do gelo nao negociavel a +10, nazares e item shop alquimia mitica e uma brilhante de granada.",
     image: "images/example.png",
     characters: [
-      { name: "Buffer", classKey: "shaman", level: 106 },
-      { name: "V2 character, Alquimia Lendaria Dentro da buffer ", classKey: "warrior", level: 55 },
-      { name: "Ninja Adagas com 4 ninjas para lascas lvl 61", classKey: "ninja", level: 100 },
-      { name: "Sura Armas lvl 1 Campeao",},
-      { name: "Warrior Corpo", level: 107 },
-      { name: "Char de Lascas " , level: 61 },
-      { name: "Flowers Character", }
+      { name: "Shaman", classKey: "Dragao", level: 106 },
+      { name: "V2 char Dentro da buffer, Alquimia Lendaria", classKey: "Warrior corpo", level: 55 },
+      { name: "Ninja com 4 ninjas para lascas lvl 61", classKey: "Adagas", level: 103 },
+      { name: "Sura", classKey: "Sura Armas", level: 1 },
+      { name: "Warrior com 4 chares para lascas lvl 61", classKey: "Corpo", level: 107 },
+      { name: "Flowers ", classKey: "Flowers", level: 1 }
     ]
   },
 
   {
     title: "Email Warrior lvl 101,",
     price: "€70 limpo",
-    notes: "Alquimia Mitica, Biologo Tiugy",
-    image: "images/w.png",
+    notes: "Alquimia Mitica, Biologo Tiugy, Chare de lascas lvl 61 com luvas do ladrao 7 dias e 2h. aneis de teletransporte e .",
+    image: "images/characters/w.png",
     characters: [
       { name: "Warrior Corpo", classKey: "Warrior", level: 101 },
       { name: "4 lascas", classKey: "Warrior", level: 61 },
