@@ -44,27 +44,28 @@ const ACCOUNTS = [
     image: "images/example.png",
     characters: [
       { name: "Buffer", classKey: "shaman", level: 106 },
-      { name: "Luares Farm dentro da buffer ", classKey: "warrior", level: 55 },
-      { name: "Ninja com 4 ninjas para lascas lvl 61", classKey: "ninja", level: 100 },
-      { name: "Sura", classKey: "sura Campeao", level: 1 },
-      { name: "Warrior", classKey: "warrior", level: 107 },
-      { name: "Lascas Character" , level: 61 },
+      { name: "V2 character, Alquimia Lendaria Dentro da buffer ", classKey: "warrior", level: 55 },
+      { name: "Ninja Adagas com 4 ninjas para lascas lvl 61", classKey: "ninja", level: 100 },
+      { name: "Sura Armas lvl 1 Campeao",},
+      { name: "Warrior Corpo", level: 107 },
+      { name: "Char de Lascas " , level: 61 },
       { name: "Flowers Character", }
     ]
   },
 
-  // Copy the block above to add more accounts, e.g.:
-  // {
-  //   title: "Starter Bundle",
-  //   price: "€80",
-  //   notes: "2 mains + 1 alt, all epic sets.",
-  //   image: "images/account2.png",
-  //   characters: [
-  //     { name: "NightClaw", classKey: "ninja", level: 100 },
-  //     { name: "MoonHowl", classKey: "lycan", level: 95 },
-  //     { name: "Ashen", classKey: "sura", level: 80 }
-  //   ]
-  // },
+  {
+    title: "Email Warrior lvl 101,",
+    price: "€70 limpo",
+    notes: "Alquimia Mitica, Biologo Tiugy",
+    image: "images/w.png",
+    characters: [
+      { name: "Warrior Corpo", classKey: "Warrior", level: 101 },
+      { name: "4 lascas", classKey: "Warrior", level: 61 },
+    ]
+  },
+
+  
+  
 ];
 
 // Edit these to your real contact details — add or remove lines as needed.
