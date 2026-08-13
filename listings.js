@@ -38,13 +38,18 @@ const LISTINGS = [
 */
 const ACCOUNTS = [
   {
-    title: "Example Account",
-    price: "€120",
-    notes: "Replace this example. Started 2023, all characters PvP-geared.",
+    title: "Email Sura lvl 1 Campeao,",
+    price: "€350 limpo",
+    notes: "Talisma do gelo nao negociavel a +10, nazares e item shop alquimia mitica e uma brilhante de granada.",
     image: "images/example.png",
     characters: [
-      { name: "Example Warrior", classKey: "warrior", level: 105 },
-      { name: "Example Shaman", classKey: "shaman", level: 92 }
+      { name: "Buffer", classKey: "shaman", level: 106 },
+      { name: "Luares Farm dentro da buffer ", classKey: "warrior", level: 55 },
+      { name: "Ninja com 4 ninjas para lascas lvl 61", classKey: "ninja", level: 100 },
+      { name: "Sura", classKey: "sura Campeao", level: 1 },
+      { name: "Warrior", classKey: "warrior", level: 107 },
+      { name: "Lascas Character" , level: 61 },
+      { name: "Flowers Character", }
     ]
   },
 
