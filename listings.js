@@ -97,12 +97,13 @@ const LISTINGS = [
     image: "images/warrioritens/tigre+915rel1kvd.png"
   },
   {
-    name: "Armadura Tigre +9 (Reflete Ataques)",
+    name: "Armadura Tigre +9",
     classKey: "equipment",
     level: 18,
     price: "Ask for price",
     image: "images/warrioritens/tigre+915relampagos.png"
   },
+
   {
     name: "Escudo Tita +9",
     classKey: "equipment",
@@ -110,6 +111,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/warrioritens/tita.png"
   },
+
   {
     name: "Espada Venenosa +9",
     classKey: "weapons",
@@ -125,6 +127,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/almas+8.png"
   },
+
   {
     name: "Colar de Safira +9",
     classKey: "necklaces",
@@ -132,6 +135,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/colar8metins.png"
   },
+
   {
     name: "Colar de Perolas +9",
     classKey: "necklaces",
@@ -139,6 +143,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/colarperolas.png"
   },
+
   {
     name: "Elmo Escama de Dragao +7",
     classKey: "elmos",
@@ -146,6 +151,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/elmo1.png"
   },
+
   {
     name: "Brincos de Esmeralda +8",
     classKey: "earrings",
@@ -153,12 +159,14 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/esmeraldas+8.png"
   },
+
   {
     name: "Faixa Chen (Pessoal) Gelo +3",
     classKey: "faixas",
     price: "Ask for price",
     image: "images/suraitens/faixa.png"
   },
+
   {
     name: "Talisma do Gelo +10",
     classKey: "talisman",
@@ -166,6 +174,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/gelo+10.png"
   },
+
   {
     name: "Sapatos Oceanicos +6",
     classKey: "sapatos",
@@ -173,6 +182,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/oceanicos.png"
   },
+
   {
     name: "Pet Heroico Nivel 97",
     classKey: "outros",
@@ -180,6 +190,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/pet.png"
   },
+
   {
     name: "Brincos de Rubi +8",
     classKey: "earrings",
@@ -187,6 +198,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/Rubi+8.png"
   },
+
   {
     name: "Pulseira de Safira +5",
     classKey: "bracelets",
@@ -194,6 +206,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/safira+5.png"
   },
+
   {
     name: "Sapatos de Fogo +8",
     classKey: "sapatos",
@@ -201,6 +214,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/sapatosfogo.png"
   },
+
   {
     name: "Talisma da Terra +0 (Zodiaco)",
     classKey: "talisman",
@@ -208,6 +222,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/talismazodiaco.png"
   },
+
   {
     name: "Escudo Tita +8",
     classKey: "equipment",
@@ -215,6 +230,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/tita.png"
   },
+
   {
     name: "Espada do Zodiaco +8",
     classKey: "weapons",
@@ -222,6 +238,7 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/zodiaco.png"
   },
+  
   {
     name: "Colar de prata +9",
     classKey: "necklaces",
