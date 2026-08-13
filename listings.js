@@ -17,14 +17,14 @@ const LISTINGS = [
     name:"Espada lua cheia +9",
     classKey: "weapons",
     level: 30,
-    price: "Ask for price",
+    price: "50 Wons",
     image: "images/warrioritens/lua.png"
   },
   {
     name: "Elmo Aco de Dragao +7",
     classKey: "elmos",
     level: 100,
-    price: "Ask for price",
+    price: "17 Wons",
     image: "images/warrioritens/elmo.png"
   },
   {
@@ -62,31 +62,26 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/warrioritens/pulsafira+8.png"
   },
-  {
-    name: "Roupa da Aura Normal",
-    classKey: "outros",
-    price: "Ask for price",
-    image: "images/warrioritens/roupadaura.png"
-  },
+
   {
     name: "Colar de Safira +9",
     classKey: "necklaces",
     level: 54,
-    price: "Ask for price",
+    price: "140 Wons",
     image: "images/warrioritens/safira+9.png"
   },
   {
     name: "Talisma da Terra +0 (Deserto)",
     classKey: "talisman",
     level: 20,
-    price: "Ask for price",
+    price: "100 Wons",
     image: "images/warrioritens/talisma.png"
   },
   {
     name: "Talisma da Terra +0 (Gelo)",
     classKey: "talisman",
     level: 20,
-    price: "Ask for price",
+    price: "21 Wons",
     image: "images/warrioritens/talisma2.png"
   },
   {
@@ -108,7 +103,7 @@ const LISTINGS = [
     name: "Escudo Tita +9",
     classKey: "equipment",
     level: 81,
-    price: "Ask for price",
+    price: "90 Wons",
     image: "images/warrioritens/tita.png"
   },
 
@@ -116,7 +111,7 @@ const LISTINGS = [
     name: "Espada Venenosa +9",
     classKey: "weapons",
     level: 75,
-    price: "Ask for price",
+    price: "50 Wons",
     image: "images/warrioritens/venas.png"
   },
 
@@ -124,7 +119,7 @@ const LISTINGS = [
     name: "Cinto das Almas +8",
     classKey: "outros",
     level: 100,
-    price: "Ask for price",
+    price: "15 Wons",
     image: "images/suraitens/almas+8.png"
   },
 
@@ -148,7 +143,7 @@ const LISTINGS = [
     name: "Elmo Escama de Dragao +7",
     classKey: "elmos",
     level: 100,
-    price: "Ask for price",
+    price: "15 Wons",
     image: "images/suraitens/elmo1.png"
   },
 
@@ -156,38 +151,31 @@ const LISTINGS = [
     name: "Brincos de Esmeralda +8",
     classKey: "earrings",
     level: 95,
-    price: "Ask for price",
+    price: "20 Wons",
     image: "images/suraitens/esmeraldas+8.png"
   },
 
   {
     name: "Faixa Chen (Pessoal) Gelo +3",
     classKey: "faixas",
-    price: "Ask for price",
+    price: "70 Wons",
     image: "images/suraitens/faixa.png"
   },
-
-  {
-    name: "Talisma do Gelo +10",
-    classKey: "talisman",
-    level: 30,
-    price: "Ask for price",
-    image: "images/suraitens/gelo+10.png"
-  },
+  
 
   {
     name: "Sapatos Oceanicos +6",
     classKey: "sapatos",
     level: 96,
-    price: "Ask for price",
+    price: "23 Wons",
     image: "images/suraitens/oceanicos.png"
   },
 
   {
-    name: "Pet Heroico Nivel 97",
+    name: "Pet Heroico Nivel 97, tipo 2 Mini Razador",
     classKey: "outros",
     level: 97,
-    price: "Ask for price",
+    price: "64 Wons",
     image: "images/suraitens/pet.png"
   },
 
@@ -195,7 +183,7 @@ const LISTINGS = [
     name: "Brincos de Rubi +8",
     classKey: "earrings",
     level: 85,
-    price: "Ask for price",
+    price: "12 Wons",
     image: "images/suraitens/Rubi+8.png"
   },
 
@@ -211,7 +199,7 @@ const LISTINGS = [
     name: "Sapatos de Fogo +8",
     classKey: "sapatos",
     level: 88,
-    price: "Ask for price",
+    price: "100 Wons",
     image: "images/suraitens/sapatosfogo.png"
   },
 
@@ -219,7 +207,7 @@ const LISTINGS = [
     name: "Talisma da Terra +0 (Zodiaco)",
     classKey: "talisman",
     level: 20,
-    price: "Ask for price",
+    price: "200 Wons",
     image: "images/suraitens/talismazodiaco.png"
   },
 
@@ -235,7 +223,7 @@ const LISTINGS = [
     name: "Espada do Zodiaco +8",
     classKey: "weapons",
     level: 105,
-    price: "Ask for price",
+    price: "60 Wons",
     image: "images/suraitens/zodiaco.png"
   },
   
@@ -259,7 +247,7 @@ const LISTINGS = [
     name: "Elmo escamas Dragao +8",
     classKey: "elmos",
     level: 100,
-    price: "Ask for price",
+    price: "21 Wons",
     image: "images/suraitens/escamasdragao+8.png"
   },
 
@@ -275,7 +263,7 @@ const LISTINGS = [
     name: "Armadura Luz Fantasma +8",
     classKey: "equipment",
     level: 113,
-    price: "Ask for price",
+    price: "60 Wons",
     image: "images/suraitens/fantasma1.png"
   },
 
@@ -283,7 +271,7 @@ const LISTINGS = [
     name: "Armadura Luz Fantasma +8",
     classKey: "equipment",
     level: 113,
-    price: "Ask for price",
+    price: "130 Wons",
     image: "images/suraitens/fantasma2.png"
   },
 
