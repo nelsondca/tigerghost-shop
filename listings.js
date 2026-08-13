@@ -14,6 +14,13 @@ const LISTINGS = [
     image: "images/warrioritens/colarcobre+9.png"
   },
   {
+    name:"Espada lua cheia +9",
+    classKey: "warrior",
+    level: 30,
+    price: "Ask for price",
+    image: "images/warrioritens/lua.png"
+  },
+  {
     name: "Elmo Aco de Dragao +7",
     classKey: "warrior",
     level: 100,
@@ -216,18 +223,95 @@ const LISTINGS = [
     price: "Ask for price",
     image: "images/suraitens/zodiaco.png"
   },
+  {
+    name: "Colar de prata +9",
+    classKey: "lycan",
+    level: 15,
+    price: "Ask for price",
+    image: "images/suraitens/colarprata+9.png"
+  },
+
+  {
+    name: "Armadura da Desgraca +9",
+    classKey: "Sura",
+    level: 18,
+    price: "Ask for price",
+    image: "images/suraitens/desgraca+915vento5abs.png"
+  },
+
+  {
+    name: "Elmo escamas Dragao +8",
+    classKey: "Sura",
+    level: 100,
+    price: "Ask for price",
+    image: "images/suraitens/escamasdragao+8.png"
+  },
+
+  {
+    name: "Capacete Escarnio +9",
+    classKey: "Sura",
+    level: 21,
+    price: "Ask for price",
+    image: "images/suraitens/escarnio+9.png"
+  },
+
+  {
+    name: "Armadura Luz Fantasma +8",
+    classKey: "Sura",
+    level: 113,
+    price: "Ask for price",
+    image: "images/suraitens/fantasma1.png"
+  },
+
+  {
+    name: "Armadura Luz Fantasma +8",
+    classKey: "Sura",
+    level: 113,
+    price: "Ask for price",
+    image: "images/suraitens/fantasma2.png"
+  },
+
+  {
+    name: "Sapatos Fita d'Ouro +9",
+    classKey: "lycan",
+    level: 23,
+    price: "Ask for price",
+    image: "images/suraitens/fitarour+9.png"
+
+  },
+
+  {
+    name: "Pulseira de Prata +7",
+    classKey: "lycan",
+    level: 15,
+    price: "Ask for price",
+    image: "images/suraitens/prata+7.png"
+  },
+
+  {
+    name: "Pulseira de Prata +9",
+    classKey: "lycan",
+    level: 15,
+    price: "Ask for price",
+    image: "images/suraitens/prata+9.png"
+  },
+
+  {
+    name: "Pulseira de Prata +9",
+    classKey: "lycan",
+    level: 15,
+    price: "Ask for price",
+    image: "images/suraitens/prata+92.png"
+  },
 
 ];
 
-/*
-  Full accounts (bundles of multiple characters sold together).
-  "characters" is a short list of what's inside — just name, class, level.
-*/
+
 const ACCOUNTS = [
   {
     title: "Email Sura lvl 1 Campeao,",
     price: "Ask for price",
-    notes: "Talisma do gelo nao negociavel a +10, <p>nazares e item shop alquimia mitica e uma brilhante de granada. V2 char com Alquimia Lendaria, 2 contas com 4 chares de lascas lvl 61",
+    notes: "Talisma do gelo nao negociavel a +10, nazares e item shop alquimia mitica e uma brilhante de granada. V2 char com Alquimia Lendaria, 2 contas com 4 chares de lascas lvl 61",
     image: "images/characters/s.png",
     characters: [
       { name: "Shaman", classKey: "Dragao", level: 106 },
@@ -241,7 +325,7 @@ const ACCOUNTS = [
   {
     title: "Warrior lvl 101 email,",
     price: "Ask for price",
-    notes: "Alquimia Mitica, Biologo Tiugy, Chare de lascas lvl 61 com luvas do ladrao 7 dias e 2h. aneis de teletransporte e .",
+    notes: "Alquimia Mitica, Biologo Tiugy, Chare de lascas lvl 61 com luvas do ladrao 7 dias e 2h. Aneis de teletransporte.",
     image: "images/characters/w.png",
     characters: [
       { name: "Warrior Corpo", classKey: "Warrior", level: 101 },
@@ -249,6 +333,16 @@ const ACCOUNTS = [
     ]
   },
 
+  {
+    title: "Shaman Dragao lvl 95 email,",
+    price: "Ask for price",
+    notes: " Biologo nos ramos zelkova .",
+    image: "images/characters/x.png",
+    characters: [
+      { name: "Shaman", classKey: "Dragao", level: 95 },
+      { name: "Warrior", classKey: "Corpo", level: 112 },
+    ]
+  },
   
   
 ];
