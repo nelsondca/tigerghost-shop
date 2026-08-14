@@ -3,14 +3,14 @@ const LISTINGS = [
     name: "Armadura de Aco Preto +9",
     classKey: "equipment",
     level: 70,
-    price: "Ask for price",
+    price: "20 Wons",
     image: "images/warrioritens/aco.png"
   },
   {
     name: "Colar de Cobre +9",
     classKey: "necklaces",
     level: 8,
-    price: "Ask for price",
+    price: "3 Wons",
     image: "images/warrioritens/colarcobre+9.png"
   },
   {
@@ -31,35 +31,35 @@ const LISTINGS = [
     name: "Elmo de Ferro +9",
     classKey: "elmos",
     level: 21,
-    price: "Ask for price",
+    price: "21 Wons",
     image: "images/warrioritens/elmoferro+910dem15rel.png"
   },
   {
     name: "Mascara de Gladiador +6",
     classKey: "elmos",
     level: 60,
-    price: "Ask for price",
+    price: "15 Wons",
     image: "images/warrioritens/gladiador+615vento.png"
   },
   {
     name: "Sapatos em Madeira +9",
     classKey: "sapatos",
     level: 17,
-    price: "Ask for price",
+    price: "2 Wons",
     image: "images/warrioritens/madeira+9.png"
   },
   {
     name: "Armadura Mortal +9",
     classKey: "equipment",
     level: 34,
-    price: "Ask for price",
+    price: "55 Wons",
     image: "images/warrioritens/mortal+915ven10abs10fg15vd.png"
   },
   {
     name: "Pulseira de Safira +8",
     classKey: "bracelets",
     level: 54,
-    price: "Ask for price",
+    price: "120 Wons",
     image: "images/warrioritens/pulsafira+8.png"
   },
 
@@ -88,14 +88,14 @@ const LISTINGS = [
     name: "Armadura Tigre +9 (Max VD)",
     classKey: "equipment",
     level: 18,
-    price: "Ask for price",
+    price: "10 Wons",
     image: "images/warrioritens/tigre+915rel1kvd.png"
   },
   {
     name: "Armadura Tigre +9",
     classKey: "equipment",
     level: 18,
-    price: "Ask for price",
+    price: "3 Wons",
     image: "images/warrioritens/tigre+915relampagos.png"
   },
 
@@ -127,7 +127,7 @@ const LISTINGS = [
     name: "Colar de Safira +9",
     classKey: "necklaces",
     level: 54,
-    price: "Ask for price",
+    price: "6 Wons",
     image: "images/suraitens/colar8metins.png"
   },
 
@@ -135,7 +135,7 @@ const LISTINGS = [
     name: "Colar de Perolas +9",
     classKey: "necklaces",
     level: 38,
-    price: "Ask for price",
+    price: "3 Wons",
     image: "images/suraitens/colarperolas.png"
   },
 
@@ -191,7 +191,7 @@ const LISTINGS = [
     name: "Pulseira de Safira +5",
     classKey: "bracelets",
     level: 54,
-    price: "Ask for price",
+    price: "35 Wons",
     image: "images/suraitens/safira+5.png"
   },
 
@@ -215,7 +215,7 @@ const LISTINGS = [
     name: "Escudo Tita +8",
     classKey: "equipment",
     level: 81,
-    price: "Ask for price",
+    price: "125 Wons",
     image: "images/suraitens/tita.png"
   },
 
@@ -231,7 +231,7 @@ const LISTINGS = [
     name: "Colar de prata +9",
     classKey: "necklaces",
     level: 15,
-    price: "Ask for price",
+    price: "2 Wons",
     image: "images/suraitens/colarprata+9.png"
   },
 
@@ -239,7 +239,7 @@ const LISTINGS = [
     name: "Armadura da Desgraca +9",
     classKey: "equipment",
     level: 18,
-    price: "Ask for price",
+    price: "10 Wons",
     image: "images/suraitens/desgraca+915vento5abs.png"
   },
 
@@ -255,7 +255,7 @@ const LISTINGS = [
     name: "Capacete Escarnio +9",
     classKey: "elmos",
     level: 21,
-    price: "Ask for price",
+    price: "12 Wons",
     image: "images/suraitens/escarnio+9.png"
   },
 
@@ -279,7 +279,7 @@ const LISTINGS = [
     name: "Sapatos Fita d'Ouro +9",
     classKey: "sapatos",
     level: 23,
-    price: "Ask for price",
+    price: "2 Wons",
     image: "images/suraitens/fitarour+9.png"
 
   },
@@ -288,7 +288,7 @@ const LISTINGS = [
     name: "Pulseira de Prata +7",
     classKey: "bracelets",
     level: 15,
-    price: "Ask for price",
+    price: "35 Wons",
     image: "images/suraitens/prata+7.png"
   },
 
@@ -296,7 +296,7 @@ const LISTINGS = [
     name: "Pulseira de Prata +9",
     classKey: "bracelets",
     level: 15,
-    price: "Ask for price",
+    price: "35 Wons",
     image: "images/suraitens/prata+9.png"
   },
 
@@ -304,7 +304,7 @@ const LISTINGS = [
     name: "Pulseira de Prata +9",
     classKey: "bracelets",
     level: 15,
-    price: "Ask for price",
+    price: "55 Wons",
     image: "images/suraitens/prata+92.png"
   },
 
