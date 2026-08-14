@@ -67,7 +67,7 @@ const LISTINGS = [
     name: "Colar de Safira +9",
     classKey: "necklaces",
     level: 54,
-    price: "140 Wons",
+    price: "6 wons", 
     image: "images/warrioritens/safira+9.png"
   },
   {
@@ -127,7 +127,7 @@ const LISTINGS = [
     name: "Colar de Safira +9",
     classKey: "necklaces",
     level: 54,
-    price: "6 Wons",
+    price: "140 Wons",
     image: "images/suraitens/colar8metins.png"
   },
 
